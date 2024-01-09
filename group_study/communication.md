@@ -34,23 +34,25 @@ how often will we get in touch on each channel, and what we will discuss there:
 ---
 
 ## Availability
-Dmytro - avaliable after 15-00 in Slack 
+
+Dmytro - avaliable after 15-00 in Slack
+Anna - avaliable after 14-00 in Slack
 
 ### Availability for calling/messaging
 
 | Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
 | ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
 | _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
-| Dmytro | ------- | 10 - 20 |  -------  | -------  | 15 - 22 | -------  | -------0 |
-
+| Dmytro | ------- | 10 - 20 |  -------  | -------  | 15 - 22 | -------  | ------- |
+| Anna   | ------- | 14 - 20 |  14 - 20  | -------- | 14 - 20 | 13 - 20  | ------- |
 
 ### How many hours everyone has per day:
 
-- name: _5h_; 
+- name: _5h_;
 - name: _6h_;
 - name: _5h_;
 - name: _4h_;
-- name: _3h_;
+- Anna: _3h_;
 - Dmytro: _2h_;
 
 ## Asking for Help
