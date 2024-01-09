@@ -28,26 +28,30 @@ how often will we get in touch on each channel, and what we will discuss there:
 - **Issues**:
 - **Pull Requests**:
 - **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
+- **Slack/Discord**: Slack
+- **Video Calls**: Google Meet, Zoom
 
 ---
 
 ## Availability
+Dmytro - avaliable after 15-00 in Slack 
 
 ### Availability for calling/messaging
 
 | Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
 | ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
 | _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Dmytro | ------- | 10 - 20 |  -------  | -------  | 15 - 22 | -------  | -------0 |
+
 
 ### How many hours everyone has per day:
 
-- name: _5h_; extra comments?
+- name: _5h_; 
 - name: _6h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;
+- Dmytro: _2h_;
 
 ## Asking for Help
 
