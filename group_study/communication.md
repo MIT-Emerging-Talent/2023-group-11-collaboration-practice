@@ -37,6 +37,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 Dmytro - avaliable after 15-00 in Slack
 Anna - avaliable after 14-00 in Slack
+Denys - avaliable after 14-00 in Slack
 
 ### Availability for calling/messaging
 
@@ -45,15 +46,14 @@ Anna - avaliable after 14-00 in Slack
 | _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
 | Dmytro | ------- | 10 - 20 |  -------  | -------  | 15 - 22 | -------  | ------- |
 | Anna   | ------- | 14 - 20 |  14 - 20  | -------- | 14 - 20 | 13 - 20  | ------- |
+| Denys  | ------- | 15 - 20 |  -------  | 15 - 20  | 12 - 18 | -------  | ------- |
 
 ### How many hours everyone has per day:
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
 - name: _4h_;
 - Anna: _3h_;
 - Dmytro: _2h_;
+- Denys: _2h_;
 
 ## Asking for Help
 
