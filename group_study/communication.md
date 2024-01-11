@@ -47,6 +47,7 @@ Denys - avaliable after 14-00 in Slack
 | Dmytro | ------- | 10 - 20 |  -------  | -------  | 15 - 22 | -------  | ------- |
 | Anna   | ------- | 14 - 20 |  14 - 20  | -------- | 14 - 20 | 13 - 20  | ------- |
 | Denys  | ------- | 15 - 20 |  -------  | 15 - 20  | 12 - 18 | -------  | ------- |
+|Murtaza | 17 - 20 | 17 - 20 |  17 - 20  | 17 - 20  | 17 - 20 | 08 - 13  | 08 - 13 |
 
 ### How many hours everyone has per day:
 
@@ -54,6 +55,7 @@ Denys - avaliable after 14-00 in Slack
 - Anna: _3h_;
 - Dmytro: _2h_;
 - Denys: _2h_;
+- Murtaza: _2h_;
 
 ## Asking for Help
 
