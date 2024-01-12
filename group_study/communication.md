@@ -39,7 +39,7 @@ Dmytro - avaliable after 15-00 in Slack
 Anna - avaliable after 14-00 in Slack
 Denys - avaliable after 14-00 in Slack
 Walid - available after 18-00 in Slack
-
+Yanina- available after 14-00 in Slack
 ### Availability for calling/messaging
 
 | Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
@@ -49,7 +49,7 @@ Walid - available after 18-00 in Slack
 | Anna   | ------- | 14 - 20 |  14 - 20  | -------- | 14 - 20 | 13 - 20  | ------- |
 | Denys  | ------- | 15 - 20 |  -------  | 15 - 20  | 12 - 18 | -------  | ------- |
 | Walid  | 19 - 21 | 19 - 21 |  21 - 23  | 21 - 23  | 21 - 23 | 10 - 16  | 10 - 16 |
-
+|Yanina  | ------- | 14 - 20 |  14 - 20  | -------- | 14 - 20 | -------  | ------- |
 ### How many hours everyone has per day:
 
 
@@ -57,7 +57,7 @@ Walid - available after 18-00 in Slack
 - Dmytro: _2h_;
 - Denys: _2h_;
 - Walid: _3h_;
-
+- Yanina: _3h_;
 ## Asking for Help
 
 There's a fine line between confidently learning from your mistakes, and
