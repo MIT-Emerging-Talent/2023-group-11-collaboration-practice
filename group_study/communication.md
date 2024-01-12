@@ -17,9 +17,9 @@
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+|    Day    |  How |         The topic of discussion          |
+| 1/12/2024 | Zoom | Weekly agenda, starting to work with Git |
+|           |      |                                          |
 
 ## Communication Channels
 
@@ -28,8 +28,8 @@ how often will we get in touch on each channel, and what we will discuss there:
 - **Issues**:
 - **Pull Requests**:
 - **GitHub Discussions**
-- **Slack/Discord**: Slack
-- **Video Calls**: Google Meet, Zoom
+- **Slack/Discord**: Slack - daily
+- **Video Calls**: Google Meet, Zoom - weekly, Friday , 3 p.m. EST
 
 ---
 
@@ -50,7 +50,7 @@ Denys - avaliable after 14-00 in Slack
 
 ### How many hours everyone has per day:
 
-- name: _4h_;
+
 - Anna: _3h_;
 - Dmytro: _2h_;
 - Denys: _2h_;
