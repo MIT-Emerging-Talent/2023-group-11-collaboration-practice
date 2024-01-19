@@ -7,7 +7,7 @@ import sys
 file_dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(file_dir + "/src")
 
-import heap_sort
+from heap_sort import heap_sort
 
 
 class TestHeapSortV1(unittest.TestCase):
