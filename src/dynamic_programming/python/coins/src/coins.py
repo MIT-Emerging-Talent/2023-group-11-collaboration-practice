@@ -1,3 +1,15 @@
+"""
+Module: coin_change.py
+
+This module provides functions for calculating the minimum number of coins needed to make a given amount
+using different approaches: basic recursive, recursive with memoization, and dynamic programming.
+
+Functions:
+    - coin_change_basic(amount, coins): Basic recursive approach.
+    - coin_change_memo(amount, coins, memo=None): Recursive with memoization.
+    - coin_change_tab(amount, coins): Dynamic programming approach.
+"""
+
 def coin_change_basic(amount, coins):
     """
     Find the minimum number of coins needed to make a given amount using the available coins.
@@ -8,6 +20,7 @@ def coin_change_basic(amount, coins):
 
     Returns:
         int: The minimum number of coins needed.
+        - Returns float("inf") if it's not possible to make the given amount with the available coins.
     """
     if amount < 0:
         return float("inf")
@@ -27,6 +40,7 @@ def coin_change_memo(amount, coins, memo=None):
 
     Returns:
         int: The minimum number of coins needed.
+        - Returns float("inf") if it's not possible to make the given amount with the available coins.
     """
     if memo is None:
         memo = {}
@@ -49,11 +63,10 @@ def coin_change_tab(amount, coins):
 
     Returns:
         int: The minimum number of coins needed.
+        - Returns float("inf") if it's not possible to make the given amount with the available coins.
     """
     table = [float("inf")] * (amount + 1)
     table[0] = 0
     for i in range(1, amount + 1):
         table[i] = min(table[i - coin] + 1 for coin in coins if i >= coin)
     return table[amount]
-
-
