@@ -1,3 +1,4 @@
+
 import unittest
 
 import os
@@ -12,6 +13,7 @@ import heap_sort
 class TestHeapSortV1(unittest.TestCase):
     def test_empty_array(self):
         array = list()
+
         result = list()
 
         self.assertEqual(heap_sort(array), result)
