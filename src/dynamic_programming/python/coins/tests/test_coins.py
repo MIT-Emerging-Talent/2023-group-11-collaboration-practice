@@ -1,7 +1,11 @@
 import unittest
+import os
+import sys 
 
+file_dir = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(file_dir + "/src")
 
-from src.coin_change import coin_change_basic, coin_change_memo, coin_change_tab
+from coins import coin_change_basic, coin_change_memo, coin_change_tab
 
 
 class TestCoinChangeBasic(unittest.TestCase):
