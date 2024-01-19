@@ -1,5 +1,9 @@
 # Learning Goals
 
+
+
+## Collective
+
 -Boost coding skills by delving into advanced GitHub features and workflows to better understand version control systems.
 
 -Master tools like Matplotlib, Seaborn, and Pandas for effective data communication.
@@ -10,6 +14,12 @@
 
 -Optimize code performance, especially with large datasets, utilizing Pandas for efficient data manipulation.
 
-## Collective
-
 ## Individual
+
+### Dmytro
+
+1. Collaborative experience, team leading experience.
+2. Develop a understanding of machine learning algorithms.
+3. Learn to write clean and documented code.
+4. Conduct statistical analyses to derive insights from data.
+5. Effectively collaborate with team members and document analysis processes.
