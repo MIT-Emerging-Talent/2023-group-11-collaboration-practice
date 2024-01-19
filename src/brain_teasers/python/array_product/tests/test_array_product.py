@@ -6,7 +6,7 @@ import sys
 file_dir = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(file_dir + "/src")
 
-import array_product
+from array_product import array_product 
 
 class TestArrayProduct(unittest.TestCase):
     def test_array_product(self):
