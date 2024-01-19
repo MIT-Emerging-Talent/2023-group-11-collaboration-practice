@@ -19,3 +19,16 @@ The `heap_sort` function sorts an input array of integers in ascending order usi
 ## Return Value
 
 - `List[int]`: Sorted array in ascending order.
+
+## Examples
+
+```python
+>>> heap_sort([1, 5, 2, 3, 8])
+[1, 2, 3, 5, 8]
+
+>>> heap_sort([])
+[]
+
+>>> heap_sort([1])
+[1]
+```
