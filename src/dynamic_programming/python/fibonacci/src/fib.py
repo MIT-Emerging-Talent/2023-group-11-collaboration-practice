@@ -1,31 +1,51 @@
-def fib_basic(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib_basic(n - 2) + fib_basic(n - 1)
+class Fibonacci:
+    """
+    This class represents an approach to calculate Fibonacci number using a recursive approach with memoization
+    """
 
+    def __init__(self) -> None:
+        """
+        Initializes the Fibonacci object.
+        """
+        self.memo = {}
 
-def fib_memo(n, memo=dict()):
-    if n < 1:
-        return 0
-    if n <= 2:
-        return 1
-    return memo.get(n, fib_memo(n - 1, memo) + fib_memo(n - 2, memo))
+    def fib(self, n: int) -> int:
+        """
+        Calculates the nth Fibonacci number using a recursive approach with memoization.
 
+        Parameters:
+        - n (int): The index of the Fibonacci number to be calculated.
 
-def fib_tab(n):
-    if n < 1:
-        return 0
+        Returns:
+        - int: The nth Fibonacci number.
+        """
+        if n in self.memo:
+            """
+            Return memoized result if available.
+            """
+            return self.memo[n]
 
-    if n == 1:
-        return 1
+        if n == 0:
+            """
+            Return 0 if value is 0. It is a boundary case.
+            """
+            return 0
 
-    table = [0] * (n + 1)
-    table[1] = 1
+        elif n == 1:
+            """
+            Return 1 if value is 1. It is a boundary case.
+            """
+            return 1
+        else:
+            """
+            Recursively calculate Fibonacci values for n-1 and n-2.
+            Return Fibonacci number.
+            """
+            result = self.fib(n - 1) + self.fib(n - 2)
 
-    for i in range(2, n + 1):
-        table[i] = table[i - 1] + table[i - 2]
-
-    return table[n]
+        """
+        Recursively calculate Fibonacci values for n-1 and n-2.
+        Return Fibonacci number.
+        """
+        self.memo[n] = result
+        return result
