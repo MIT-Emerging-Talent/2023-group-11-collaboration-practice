@@ -1,8 +1,15 @@
-class Fibonacci:
-    """
-    This class represents an approach to calculate Fibonacci number using a recursive approach with memoization
-    """
+#!/usr/bin/env python3.12
 
+"""
+Module Description:
+This module contains a class for calculating Fibonacci numbers using a recursive approach with memoization.
+
+Author:
+Dmytro Lytvynenko
+"""
+
+
+class Fibonacci:
     def __init__(self) -> None:
         """
         Initializes the Fibonacci object.
