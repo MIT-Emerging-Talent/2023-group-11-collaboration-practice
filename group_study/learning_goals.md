@@ -23,3 +23,10 @@
 3. Learn to write clean and documented code.
 4. Conduct statistical analyses to derive insights from data.
 5. Effectively collaborate with team members and document analysis processes.
+
+
+### Denys
+
+1. Gain a deeper understanding of data science methodologies and enhance the structuring of data science workflows.
+2. Actively participate in collaborative data science projects to further develop practical skills and contribute to team success.
+3. Cultivate hands-on experience and proficiency in working within cross-cultural teams to broaden my adaptability and collaboration skills in diverse environments.
