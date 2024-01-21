@@ -1,4 +1,13 @@
 def all_permutations(elements):
+    """
+    Generate all permutations of the input elements.
+
+    Parameters:
+    - elements (List): The list of elements to generate permutations for.
+
+    Yields:
+    - List: A permutation of the input elements.
+    """
     if len(elements) <= 1:
         yield elements
         return
@@ -9,6 +18,16 @@ def all_permutations(elements):
             
             
 def perm(start, end=[]):
+    """
+    Print all permutations of the input list.
+
+    Parameters:
+    - start (List): The list for which permutations are to be printed.
+    - end (List): The current permutation being generated. Default is an empty list.
+
+    Returns:
+    - None
+    """
     if(len(start) == 0):
         print(end)
     else:
@@ -17,7 +36,15 @@ def perm(start, end=[]):
             
 # Python function to print permutations of a given list
 def permutation(lst):
- 
+    """
+    Find all permutations of the given list.
+
+    Parameters:
+    - lst (List): The list for which permutations are to be found.
+
+    Returns:
+    - List[List]: A list containing all permutations of the input list.
+    """
     # If lst is empty then there are no permutations
     if len(lst) == 0:
         return []
