@@ -1,3 +1,16 @@
+#!/usr/bin/env python3.12
+
+"""
+Knuth-Morris-Pratt (KMP) Algorithm Module
+
+This module provides functions for building the Knuth-Morris-Pratt (KMP) table
+and finding occurrences of a pattern in a given text using the KMP algorithm.
+
+Author:
+Anna Shliapkina
+"""
+
+
 def build_kmp_table(pattern):
     """
     Build the Knuth-Morris-Pratt (KMP) table for a given pattern.
