@@ -1,8 +1,26 @@
+"""
+Module: string_pattern
+
+This module provides functionality to check if a given pattern can be uniquely
+mapped to a substring within a specified string.
+
+Functions:
+    string_pattern(string, pattern): Determines if a pattern can be uniquely
+                                     mapped to a part of the given string.
+"""
+
 def string_pattern(string, pattern):
     """
-    Check if the pattern matches anywhere in the string.
-    Each unique character in the pattern represents a unique character in the string,
-    and the same characters in the pattern represent the same characters in the string.
+    Check if a pattern can be uniquely mapped to a substring of the given string.
+
+    Each unique character in the pattern must correspond to a unique character in the string.
+
+    Parameters:
+    string (str): The string in which the pattern is to be matched.
+    pattern (str): The pattern that needs to be matched within the string.
+
+    Returns:
+    bool: True if the pattern can be uniquely mapped to a substring of the string, False otherwise.
     """
     for i in range(len(string) - len(pattern) + 1):
         mapping = {}
@@ -30,4 +48,3 @@ print(string_pattern("basetestcasebase", "A"))     # Expected: True
 print(string_pattern("basetestcasebase", "ABA"))   # Expected: True
 print(string_pattern("basetestcasebase", "AA"))    # Expected: False
 print(string_pattern("abcdefg", "aa"))             # Expected: False
-
