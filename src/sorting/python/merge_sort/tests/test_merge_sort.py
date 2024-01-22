@@ -1,3 +1,9 @@
+import os
+import sys
+file = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(file + "/src")
+
+
 import unittest
 
 import os
