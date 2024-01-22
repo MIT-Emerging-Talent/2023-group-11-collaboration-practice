@@ -1,26 +1,38 @@
-These functions can be used to solve the staircase climbing problem with different approaches, allowing for flexibility in terms of time complexity and efficiency. Choose the appropriate function based on your specific requirements and constraints.
 
-def count_ways_to_climb_basic
-This function calculates the number of distinct ways to climb a staircase with a given number of steps using a basic recursive approach. The idea is to explore all possible combinations of taking 1, 2, or 3 steps at each recursive step.
-Parameters:
-num_steps (int): The total number of steps in the staircase.
-Returns:
-int: The total number of distinct ways to climb the staircase.
+# Climbing Stairs Challenge
 
-def count_ways_to_climb_memo
-This function employs memoization to optimize the calculation of the number of distinct ways to climb a staircase. It avoids redundant recursive calls by storing and reusing previously computed results.
+This repository contains Python implementations for solving the "Climbing Stairs" challenge using different approaches. 
+The challenge involves finding the number of ways to climb a staircase with a given number of steps.
 
-Parameters:
-num_steps (int): The total number of steps in the staircase.
-memo (dict, optional): A dictionary to store previously computed results for memoization.
-Returns:
-int: The total number of distinct ways to climb the staircase.
+## Behaviors
 
-def count_ways_to_climb_table
-This function utilizes dynamic programming with a bottom-up approach to efficiently calculate the number of distinct ways to climb a staircase. It uses a table to store intermediate results, avoiding redundant computations.
+### `count_ways_to_climb_basic(num_steps)`
 
-Parameters:
-num_steps (int): The total number of steps in the staircase.
-Returns:
-int: The total number of distinct ways to climb the staircase.
+This function counts the number of ways to climb stairs using a basic recursive approach.
 
+#### Parameters
+- `num_steps` (int): The number of steps to climb.
+
+#### Return Value
+- Returns an integer representing the count of ways to climb the stairs.
+
+### `count_ways_to_climb_memo(num_steps, memo={})`
+
+This function counts the number of ways to climb stairs using memoization.
+
+#### Parameters
+- `num_steps` (int): The number of steps to climb.
+- `memo` (dict): Memoization dictionary. Defaults to an empty dictionary.
+
+#### Return Value
+- Returns an integer representing the count of ways to climb the stairs.
+
+### `count_ways_to_climb_table(num_steps)`
+
+This function counts the number of ways to climb stairs using dynamic programming.
+
+#### Parameters
+- `num_steps` (int): The number of steps to climb.
+
+#### Return Value
+- Returns an integer representing the count of ways to climb the stairs.

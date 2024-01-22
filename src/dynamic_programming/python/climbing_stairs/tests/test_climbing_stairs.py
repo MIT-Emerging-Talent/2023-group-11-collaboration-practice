@@ -12,6 +12,18 @@ from climb import (
 
 
 class TestClimbBasic(unittest.TestCase):
+    """
+    Test class for the Climbing Stairs challenge functions.
+
+    Each test case verifies the correctness of the implemented functions.
+    """
+    """
+        Test case for count_ways_to_climb_basic function.
+
+        - Behavior: Verifies that the function returns the correct count of ways to climb stairs.
+        - Parameters: num_steps (int) - The number of steps to climb.
+        - Return Value: int - The count of ways to climb the stairs.
+        """
     def test_with_0(self):
         num = 0
         result = 1
@@ -39,6 +51,15 @@ class TestClimbBasic(unittest.TestCase):
 
 
 class TestClimbMemo(unittest.TestCase):
+    """
+        Test case for count_ways_to_climb_memo function.
+
+        - Behavior: Verifies that the function returns the correct count of ways to climb stairs with memoization.
+        - Parameters: num_steps (int) - The number of steps to climb.
+                      memo (dict) - Memoization dictionary.
+        - Return Value: int - The count of ways to climb the stairs.
+        """
+    
     def test_with_0(self):
         num = 0
         result = 1
@@ -66,6 +87,13 @@ class TestClimbMemo(unittest.TestCase):
 
 
 class TestClimbTable(unittest.TestCase):
+    """
+        Test case for count_ways_to_climb_table function.
+
+        - Behavior: Verifies that the function returns the correct count of ways to climb stairs with dynamic programming.
+        - Parameters: num_steps (int) - The number of steps to climb.
+        - Return Value: int - The count of ways to climb the stairs.
+        """
     def test_with_0(self):
         num = 0
         result = 1
@@ -73,7 +101,7 @@ class TestClimbTable(unittest.TestCase):
 
     def test_with_1(self):
         num = 1
-        result = 2
+        result = 1
         self.assertEqual(count_ways_to_climb_table(num), result)
 
     def test_with_2(self):
