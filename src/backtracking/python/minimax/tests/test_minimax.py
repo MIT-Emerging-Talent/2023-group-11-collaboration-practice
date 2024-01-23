@@ -3,6 +3,12 @@ from src.minimax import minimax, find_best_move
 
 
 class TestMinimax(unittest.TestCase):
+    """
+    Unit test suite for testing the minimax algorithm in the minimax module.
+
+    This class includes tests for various game states in tic-tac-toe to ensure that
+    the minimax algorithm correctly evaluates the best moves for each player.
+    """
     def test_empty_board(self):
         board = [
             [0, 0, 0],
