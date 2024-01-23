@@ -1,32 +1,26 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
-
 # Constraints
 
 Some boundaries around our project.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over. these may include:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
--->
+- Meet dealines for every milestone.
+- All tests should be passed.
+- We use only Python for our tasks.
+
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over. they may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+- The team has varying levels of experience with the chosen technologies, with some members being more proficient than others.
+- Due to team members' existing commitments, the maximum available weekly working hours for the project are limited to 10 hours per team member.
+
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- Provide constructive and clear feedback during code review if you have any questions or suggestion for improving.
+- Make code review based on check list.
+- Accepted up to 8 not cheched field in check list in pull request.
+- Code need to be clear, according to PEP8.
+- Pull request will be merged with at least one approve of Anna or Dmytro for security of project.
+- One group call per week at same time based on each team member availability.
+- Do not be shy to ask questions.
