@@ -1,3 +1,8 @@
+import os
+import sys
+file = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(file + "/src")
+
 import unittest
 
 from src.add_string_numbers import add_string_numbers
