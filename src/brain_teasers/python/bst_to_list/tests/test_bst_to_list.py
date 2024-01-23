@@ -1,3 +1,9 @@
+import os
+import sys
+file = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(file + "/src")
+
+
 import unittest
 
 from src.bst_to_list import bst_to_double_linked_list, TreeNode
