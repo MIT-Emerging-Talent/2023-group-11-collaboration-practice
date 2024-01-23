@@ -1,0 +1,3 @@
+Description:
+
+The add_string_numbers Python module provides a function to add two string representations of numbers. The function is designed to handle both integer and floating-point numbers. If the input strings can be converted to floats without error, the function performs a floating-point addition; otherwise, it resorts to integer addition. The accompanying unit tests in the TestAddStringNumbers class ensure the correct behavior of the function in various scenarios, including single and double-digit numbers, numbers with different digit lengths, large numbers, and floating-point numbers. This module proves useful for straightforward numeric string addition, offering flexibility and reliability.
