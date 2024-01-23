@@ -16,7 +16,6 @@ sys.path.append(file_dir + "/src")
 
 from coins import coin_change_basic, coin_change_memo, coin_change_tab
 
-
 class TestCoinChangeBasic(unittest.TestCase):
     """
     Test cases for the coin_change_basic function.
